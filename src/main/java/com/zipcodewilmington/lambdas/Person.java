@@ -55,8 +55,8 @@ public class Person {
         return LocalDate.now().getYear() - birthday.getYear();
     }
 
-    public void printPerson() {
-        System.out.println(toString());
+    public String printPerson() {
+        return toString();
     }
     @Override
     public String toString() {
