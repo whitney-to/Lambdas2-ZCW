@@ -1,5 +1,6 @@
 package com.zipcodewilington.lambdas;
 
+import com.zipcodewilmington.lambdas.CheckPerson;
 import com.zipcodewilmington.lambdas.Person;
 import com.zipcodewilmington.lambdas.PersonChecker;
 import com.zipcodewilmington.lambdas.PersonService;
@@ -41,7 +42,12 @@ public class Test {
         String actual = "Person{name='4', birthday=1992-02-16, gender=MALE, emailAddress='4@gmail.com'}\n" +
                 "Person{name='5', birthday=1988-08-21, gender=FEMALE, emailAddress='5@email.com'}\n" +
                 "Person{name='6', birthday=1986-05-30, gender=MALE, emailAddress='6@gmail.com'}\n";
-        String expected = PersonService.printPersons(list);
+        String expected = PersonService.printPersons(list,new CheckPerson(){
+            @Override
+            public boolean test(Person p) {
+                return p.getAge() > 30;
+            }
+        });
         Assert.assertEquals(actual,expected);
     }
 

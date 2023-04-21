@@ -3,14 +3,6 @@ package com.zipcodewilmington.lambdas;
 import java.util.List;
 
 public class PersonService {
-    static class Anonymous implements CheckPerson{
-        @Override
-        public boolean test(Person p) {
-            return p.getAge() > 30;
-        }
-        // check older than 30
-
-    }
     public List<Person> people;
 
     public PersonService(List<Person> people) {
@@ -25,9 +17,5 @@ public class PersonService {
             }
         }
         return sb.toString();
-    }
-
-    public static String printPersons(List<Person> roster){
-        return printPersons(roster, new Anonymous());
     }
 }
