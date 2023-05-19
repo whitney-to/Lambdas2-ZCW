@@ -13,8 +13,8 @@ public class Person {
     Sex gender;
     String emailAddress;
     public Person(String name, LocalDate birthday, Sex gender, String emailAddress) {
-        this.name = name;
         this.birthday = birthday;
+        this.name = name;
         this.gender = gender;
         this.emailAddress = emailAddress;
     }

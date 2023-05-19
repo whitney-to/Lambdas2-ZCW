@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d461bc96-bf71-43a2-8d13-3c37e439c383" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Lambdas2-ZCW/com/zipcodewilington/lambdas/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Lambdas2-ZCW/com/zipcodewilington/lambdas/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/lambdas/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/lambdas/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcodewilington/lambdas/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilington/lambdas/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="d461bc96-bf71-43a2-8d13-3c37e439c383" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
